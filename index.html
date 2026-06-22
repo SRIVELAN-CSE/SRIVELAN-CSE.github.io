@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <!-- Center background design removed -->
+    
+    <div class="cursor-spotlight" aria-hidden="true"></div>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
@@ -15,7 +21,9 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -31,12 +39,19 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
+                <p class="hero-kicker">Portfolio • Full Stack Developer • Future-ready builder</p>
                 <h1 class="hero-title">Hi, I'm <span class="highlight">SRIVELAN M</span></h1>
                 <h2 class="hero-subtitle">Full Stack Developer | App Developer</h2>
                 <p class="hero-description">
                     Computer Science Engineering Undergraduate | Batch 2023-2027<br>
                     M. Kumarasamy College of Engineering, Karur
                 </p>
+                <div class="hero-chips">
+                    <span class="chip">Web Apps</span>
+                    <span class="chip">Mobile UI</span>
+                    <span class="chip">Backend Logic</span>
+                    <span class="chip">Database Flow</span>
+                </div>
                 <div class="hero-buttons">
                     <a href="#projects" class="btn btn-primary">View Projects</a>
                     <a href="#contact" class="btn btn-secondary">Contact Me</a>
@@ -62,6 +77,37 @@
                         user-friendly interfaces and robust backend systems. I'm constantly learning and adapting to 
                         new technologies to stay ahead in this dynamic field.
                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-card">
+                <div class="experience-badge">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-header">
+                        <div>
+                            <h3>Full Stack Developer Intern</h3>
+                            <p class="experience-company">Bixcel Institute of Technologies Private Limited, Karur</p>
+                        </div>
+                        <span class="experience-date">24 Mar 2026 - 09 Apr 2026</span>
+                    </div>
+                    <p>
+                        Completed internship training at Bixcel Institute of Technologies Private Limited as a Full Stack
+                        Developer Intern while studying at M. Kumarasamy College of Engineering. The training focused on
+                        practical web application concepts, frontend development, backend integration, and database handling.
+                    </p>
+                    <div class="experience-points">
+                        <span>Built practical understanding of responsive web application workflows.</span>
+                        <span>Worked on frontend, backend, and database coordination for real-time project tasks.</span>
+                        <span>Strengthened discipline, learning ability, and project collaboration during training.</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -195,6 +241,57 @@
         </div>
     </section>
 
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievement-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-award"></i></div>
+                    <div class="achievement-content">
+                        <h3>ServiceNow Certified Application Developer (CAD)</h3>
+                        <p>ServiceNow</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-shield-halved"></i></div>
+                    <div class="achievement-content">
+                        <h3>ServiceNow Certified System Administrator (CSA)</h3>
+                        <p>ServiceNow</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-brain"></i></div>
+                    <div class="achievement-content">
+                        <h3>Artificial Intelligence and Machine Learning</h3>
+                        <p>Marcello Tech</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-user-group"></i></div>
+                    <div class="achievement-content">
+                        <h3>Human Computer Interaction (In English)</h3>
+                        <p>NPTEL</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-industry"></i></div>
+                    <div class="achievement-content">
+                        <h3>Introduction to Industry 4.0 and Industrial Internet of Things</h3>
+                        <p>NPTEL</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
+                    <div class="achievement-content">
+                        <h3>Responsive & Safe AI Systems</h3>
+                        <p>NPTEL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
@@ -232,7 +329,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 SRIVELAN M. All rights reserved.</p>
+            <p>&copy; 2026 SRIVELAN M. All rights reserved. Built with a dark, spark-lit interface.</p>
         </div>
     </footer>
 
