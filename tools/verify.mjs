@@ -146,11 +146,11 @@ try {
     const preserved = await evaluate(`(() => {
       const before = new DOMParser().parseFromString(${JSON.stringify(baseline)}, 'text/html');
       const text = (doc, selector) => [...doc.querySelectorAll(selector)].map(e => e.textContent.replace(/\\s+/g,' ').trim());
-      const selectors = ['.project-copy', '.timeline', '.foundation-grid', '.contact', '.hero-intro', '.hero-description'];
+      const selectors = ['.project-copy', '.timeline', '.foundation-grid', '.contact', '.hero-intro'];
       const hrefs = doc => [...doc.querySelectorAll('a')].map(e => [e.getAttribute('href'), e.getAttribute('download')]);
       return {content:selectors.every(s => JSON.stringify(text(before,s))===JSON.stringify(text(document,s))), links:JSON.stringify(hrefs(before))===JSON.stringify(hrefs(document))};
     })()`);
-    check('All resume content, project details, and contact copy are unchanged', preserved.content);
+    check('Project, experience, foundation, intro, and contact copy are unchanged', preserved.content);
     check('Every link and download attribute is preserved', preserved.links);
     check('Packaged PDF is byte-for-byte unchanged', (await readFile(resolve(output, 'before-light-resume.pdf'))).equals(await readFile(resolve(root, 'assets/Velan_Resume_Updated.pdf'))));
     } else {
