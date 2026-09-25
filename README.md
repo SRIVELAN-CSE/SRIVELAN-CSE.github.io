@@ -1,6 +1,6 @@
 # SRIVELAN M — Developer portfolio
 
-A responsive editorial portfolio built with HTML, CSS, and vanilla JavaScript. Warm cream backgrounds and cards, soft-sage alternate sections, earthy text, terracotta actions, and forest-green accents create a bright, readable design. Original SVG illustrations use restrained clay-to-sage gradients. There is no framework, build step, CDN, external font request, or message-submission backend.
+A responsive editorial portfolio built with HTML, CSS, and vanilla JavaScript. Deep navy backgrounds and cards, blue alternate sections, bright text, electric-lime actions, and cyan accents create a bold dark design. Original SVG illustrations add warm visual contrast to the night palette. There is no framework, build step, CDN, external font request, or message-submission backend.
 
 Body copy is 18px on desktop and 16px on mobile; navigation and buttons are at least 16px, while captions, dates, badges, and illustration legends are at least 14px. Responsive headings use rem-based sizes: 30–48px for sections and 44–88px for the full name. Meaningful illustration labels live in HTML so they retain their size as the SVG scales. All type uses Segoe UI with Helvetica Neue and Arial fallbacks.
 
