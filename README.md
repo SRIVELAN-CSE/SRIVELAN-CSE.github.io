@@ -14,7 +14,7 @@ python -m http.server 8000 --bind 127.0.0.1
 
 Open **http://127.0.0.1:8000**. Stop the server with Ctrl+C. Opening `index.html` directly also works; a local server is recommended for testing downloads.
 
-For static hosting, publish `index.html`, `style.css`, `script.js`, and the complete `assets/` directory together. Relative asset paths support both root domains and project subdirectories. No deployment was performed.
+For static hosting, publish `index.html`, `style.css`, `script.js`, and the complete `assets/` directory together. Relative asset paths support both root domains and project subdirectories. The current deployment is available at https://srivelan-cse.github.io/.
 
 ## Files
 
@@ -37,6 +37,8 @@ SHA-256 64ad2e84fe053f62e8579fd94c54200cb6ebe1daf72309973b682e2a4c93366d
 ```
 
 The site includes both internships, three documented projects, every technical and soft skill in the resume, six certifications, both education entries, interests, Tamil and English, and the exact email, telephone number, GitHub, LinkedIn, and portfolio address. ServiceNow CAD and CSA receive prominent treatment. Frameworks documented in projects are separated from the resume's general technical skill groups.
+
+The hero career objective reads: “Computer Science undergraduate combining application development, ServiceNow, backend engineering, REST APIs, and AI to turn real-world requirements into intelligent and reliable software systems, with a growing focus on automation, security, and scalable solution design.” The separate role label above the name has been intentionally removed.
 
 Omitted or corrected legacy content:
 
@@ -89,6 +91,6 @@ Run the focused contrast and content audit:
 node tools/verify.mjs --audit-only
 ```
 
-It checks rendered text against composited element backgrounds, including expanded details and hover states. When this update's local baseline files are present in `.preview/`, it also compares resume content, every link, and PDF bytes with the pre-update version.
+It checks rendered text against composited element backgrounds, including expanded details and hover states. When this update's local baseline files are present in `.preview/`, it also compares project, experience, foundation, intro, and contact copy, every link, and PDF bytes with the pre-update version. The hero career objective is intentionally allowed to change.
 
 Browser results and limits are recorded in `VERIFICATION.md`.
