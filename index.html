@@ -1,338 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SRIVELAN M | Full Stack Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F5EADB">
+  <meta name="description" content="SRIVELAN M — Full Stack Developer in Karur, Tamil Nadu. Explore projects, internships, technical skills, and ServiceNow CAD and CSA certifications.">
+  <title>SRIVELAN M — Full Stack Developer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="ambient ambient-one"></div>
-    <div class="ambient ambient-two"></div>
-    <!-- Center background design removed -->
-    
-    <div class="cursor-spotlight" aria-hidden="true"></div>
-
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">SRIVELAN M</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="navigation" aria-label="Main navigation">
+      <a class="wordmark" href="#home" aria-label="Srivelan M, home">sv<span aria-hidden="true">.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" hidden><span class="menu-label">Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" aria-current="location">Home</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></li>
+      </ul>
     </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <p class="hero-kicker">Portfolio • Full Stack Developer • Future-ready builder</p>
-                <h1 class="hero-title">Hi, I'm <span class="highlight">SRIVELAN M</span></h1>
-                <h2 class="hero-subtitle">Full Stack Developer | App Developer</h2>
-                <p class="hero-description">
-                    Computer Science Engineering Undergraduate | Batch 2023-2027<br>
-                    M. Kumarasamy College of Engineering, Karur
-                </p>
-                <div class="hero-chips">
-                    <span class="chip">Web Apps</span>
-                    <span class="chip">Mobile UI</span>
-                    <span class="chip">Backend Logic</span>
-                    <span class="chip">Database Flow</span>
-                </div>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View Projects</a>
-                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
-                </div>
-            </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero container" id="home" aria-labelledby="hero-title" tabindex="-1">
+      <div class="hero-topline"><span class="eyebrow"><span class="status-dot" aria-hidden="true"></span> DEVELOPER PORTFOLIO</span><span class="eyebrow hero-location">KARUR, TAMIL NADU · INDIA</span></div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="hero-role"><span class="hero-asterisk" aria-hidden="true">✳</span> Full Stack Developer</p>
+          <h1 id="hero-title" aria-label="SRIVELAN M">SRI<wbr>VELAN&nbsp;M</h1>
+          <p class="hero-intro">Thoughtful interfaces.<br>Reliable logic. <em>Connected.</em></p>
+          <p class="hero-description">I build web applications from frontend to database, with a focus on server-side programming, APIs, and the details that make everything work together.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">View work <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="assets/Velan_Resume_Updated.pdf" download="Srivelan_M_Resume.pdf">Download resume <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4"/></svg></a>
+            <a class="text-link hero-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
+        <figure class="hero-art">
+          <div class="art-corner">FIG. 01 / THE CONNECTED STACK</div>
+          <img src="assets/connected-stack.svg" width="600" height="580" alt="Original illustration of connected frontend, API, and database layers in an isometric stack.">
+          <div class="art-legend" aria-label="Connected stack layers"><span>01 / Frontend UI</span><span>02 / REST APIs</span><span>03 / Database</span></div>
+          <figcaption><span class="small-cross" aria-hidden="true">+</span> From the first interaction to the last query.</figcaption>
+        </figure>
+      </div>
+      <div class="hero-bottom"><p>COMPUTER SCIENCE &amp; ENGINEERING <span>2023 — 2027</span></p><a href="#work" class="scroll-link">Explore the work <span aria-hidden="true">↓</span></a></div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I'm a passionate Full Stack Developer and App Developer currently pursuing my Computer Science 
-                        Engineering degree at M. Kumarasamy College of Engineering, Karur. With a strong foundation in 
-                        multiple programming languages and frameworks, I enjoy building innovative solutions that solve 
-                        real-world problems.
-                    </p>
-                    <p>
-                        My expertise spans across web and mobile application development, with a focus on creating 
-                        user-friendly interfaces and robust backend systems. I'm constantly learning and adapting to 
-                        new technologies to stay ahead in this dynamic field.
-                    </p>
-                </div>
+    <section class="work section container" id="work" aria-labelledby="work-title" tabindex="-1">
+      <div class="section-heading" data-reveal><div><p class="eyebrow"><span class="section-number">01 /</span> SELECTED WORK</p><h2 id="work-title">Built with <em>purpose.</em></h2></div><p class="section-intro">Three projects. Different problems.<br>A connected approach to building solutions.</p></div>
+
+      <article class="project project-civic" aria-labelledby="civic-title" data-reveal>
+        <figure class="project-art civic-art">
+          <div class="art-topline"><span>CW / CIVIC SYSTEMS</span><span aria-hidden="true">↗</span></div>
+          <img src="assets/civic-welfare.svg" width="720" height="500" loading="lazy" alt="Conceptual illustration of a city connected to citizen, officer, and administrator access, with a complaint status flow.">
+          <div class="art-legend" aria-label="Civic system access"><span>Citizen</span><span>Officer</span><span>Administrator</span></div>
+          <p class="art-flow">Submit <span aria-hidden="true">→</span> Process <span aria-hidden="true">→</span> Update status</p>
+          <figcaption>CONCEPT ILLUSTRATION <span>01 / 03</span></figcaption>
+        </figure>
+        <div class="project-copy">
+          <p class="eyebrow project-kicker">WEB APPLICATION <span>OCT — DEC 2025</span></p>
+          <h3 id="civic-title">Civic Welfare<br>Application<span class="accent">.</span></h3>
+          <p class="project-description">Connecting citizens and civic teams through a structured complaint process.</p>
+          <p class="project-role"><span>MY ROLE</span> Backend Developer</p>
+          <ul class="tags" aria-label="Project features"><li>Complaint processing</li><li>Role-based access</li><li>Status updates</li></ul>
+          <details class="project-details">
+            <summary>Inside the project <span class="detail-icon" aria-hidden="true"></span></summary>
+            <div class="detail-content">
+              <h4>The problem</h4><p>Organizing civic complaints while giving citizens, officers, and administrators access appropriate to their roles.</p>
+              <h4>My contribution</h4><p>Implemented backend complaint processing, role-based access control, and status update logic for a system with structured database storage.</p>
+              <h4>Key features</h4><ul><li>Separate login access for citizens, officers, and administrators.</li><li>Role-based permissions and complaint status updates.</li><li>Structured storage of civic welfare data.</li></ul>
+              <h4>Technology documentation</h4><p>The resume documents database storage and backend functionality, but does not name this project’s technology stack.</p>
             </div>
+          </details>
         </div>
+      </article>
+
+      <article class="project project-routine" aria-labelledby="routine-title" data-reveal>
+        <figure class="project-art routine-art">
+          <div class="art-topline"><span>RG / PATTERNS &amp; SIGNALS</span><span aria-hidden="true">↗</span></div>
+          <img src="assets/routineguard.svg" width="720" height="500" loading="lazy" alt="Conceptual illustration of a routine signal passing through a circular detection field, with a deviation highlighted.">
+          <div class="art-legend" aria-label="Illustrative signal legend"><span>Routine signal</span><span class="legend-secondary">Deviation</span><span>Pattern watch</span></div>
+          <figcaption>CONCEPT ILLUSTRATION <span>02 / 03</span></figcaption>
+        </figure>
+        <div class="project-copy">
+          <p class="eyebrow project-kicker">SAFETY &amp; MONITORING</p>
+          <h3 id="routine-title">RoutineGuard<span class="accent">.</span></h3>
+          <p class="project-description">Routine monitoring and anomaly detection for user safety.</p>
+          <p class="project-role"><span>MY ROLE</span> Full Stack Developer</p>
+          <ul class="tags" aria-label="Documented technologies"><li>Java</li><li>Spring Boot</li><li>REST APIs</li><li>PostgreSQL</li><li>Thymeleaf</li></ul>
+          <details class="project-details">
+            <summary>Inside the project <span class="detail-icon" aria-hidden="true"></span></summary>
+            <div class="detail-content">
+              <h4>The problem</h4><p>Monitoring user routines and identifying unusual patterns to support user safety.</p>
+              <h4>My contribution</h4><p>Built the backend REST APIs, anomaly-detection algorithm, PostgreSQL integration, and Thymeleaf user interface as the full stack developer.</p>
+              <h4>Key features</h4><ul><li>User routine monitoring.</li><li>Anomaly detection to identify deviations.</li><li>Database integration and a connected web interface.</li></ul>
+              <h4>Documented technologies</h4><p>Java, Spring Boot, REST APIs, PostgreSQL, and Thymeleaf.</p>
+            </div>
+          </details>
+        </div>
+      </article>
+
+      <article class="project project-attention" aria-labelledby="attention-title" data-reveal>
+        <figure class="project-art attention-art">
+          <div class="art-topline"><span>CA / ATTENTION IN FOCUS</span><span aria-hidden="true">↗</span></div>
+          <img src="assets/consumer-attention.svg" width="720" height="500" loading="lazy" alt="Conceptual illustration of retail shelves, a consumer path, and warm attention heatmap areas. Illustrative data only.">
+          <div class="art-legend" aria-label="Illustrative store map legend"><span>Consumer path</span><span class="legend-secondary">Attention density</span><span>Product interaction</span></div>
+          <figcaption>CONCEPT ILLUSTRATION <span>03 / 03</span></figcaption>
+        </figure>
+        <div class="project-copy">
+          <p class="eyebrow project-kicker"><span class="internship-tag">INTERNSHIP WORK</span> INFOSYS SPRINGBOARD</p>
+          <h3 id="attention-title">Consumer<br>Attention Mapping<span class="accent">.</span></h3>
+          <p class="project-description">Making consumer movement and product interactions visible through retail analytics.</p>
+          <p class="project-role"><span>MY ROLE</span> AI Intern</p>
+          <ul class="tags" aria-label="Documented technologies"><li>React.js</li><li>FastAPI</li><li>REST APIs</li><li>PostgreSQL</li></ul>
+          <details class="project-details">
+            <summary>Inside the project <span class="detail-icon" aria-hidden="true"></span></summary>
+            <div class="detail-content">
+              <h4>The problem</h4><p>Understanding consumer attention, movement, and product interaction within a retail store.</p>
+              <h4>My contribution</h4><p>Developed the Consumer Attention Mapping System during Infosys Springboard Virtual Internship 7.0. Built and integrated the React.js frontend and FastAPI backend with REST APIs and PostgreSQL.</p>
+              <h4>Key features</h4><ul><li>Consumer tracking and heatmaps.</li><li>Product interaction and attention analytics.</li><li>Role-based analytics dashboards.</li></ul><p>Also supported testing, debugging, and API integration.</p>
+              <h4>Documented technologies</h4><p>React.js, FastAPI, REST APIs, and PostgreSQL.</p>
+            </div>
+          </details>
+        </div>
+      </article>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="experience-card">
-                <div class="experience-badge">
-                    <i class="fas fa-briefcase"></i>
-                </div>
-                <div class="experience-content">
-                    <div class="experience-header">
-                        <div>
-                            <h3>Full Stack Developer Intern</h3>
-                            <p class="experience-company">Bixcel Institute of Technologies Private Limited, Karur</p>
-                        </div>
-                        <span class="experience-date">24 Mar 2026 - 09 Apr 2026</span>
-                    </div>
-                    <p>
-                        Completed internship training at Bixcel Institute of Technologies Private Limited as a Full Stack
-                        Developer Intern while studying at M. Kumarasamy College of Engineering. The training focused on
-                        practical web application concepts, frontend development, backend integration, and database handling.
-                    </p>
-                    <div class="experience-points">
-                        <span>Built practical understanding of responsive web application workflows.</span>
-                        <span>Worked on frontend, backend, and database coordination for real-time project tasks.</span>
-                        <span>Strengthened discipline, learning ability, and project collaboration during training.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="experience section" id="experience" aria-labelledby="experience-title" tabindex="-1">
+      <div class="container experience-layout">
+        <div class="experience-heading" data-reveal><p class="eyebrow"><span class="section-number">02 /</span> EXPERIENCE</p><h2 id="experience-title">Learning.<br>Building.<br><em>Contributing.</em></h2><p>Hands-on experience across frontend components, backend services, and the data that connects them.</p><div class="experience-mark" aria-hidden="true">↳</div></div>
+        <ol class="timeline">
+          <li data-reveal>
+            <div class="timeline-meta"><span class="eyebrow">JUN — AUG 2026</span><span class="experience-type">VIRTUAL INTERNSHIP</span></div>
+            <h3>AI Intern</h3><p class="company">Infosys Springboard<br>Virtual Internship 7.0</p>
+            <ul class="responsibilities"><li>Developed a Consumer Attention Mapping System for retail store analytics.</li><li>Built and integrated React.js and FastAPI with REST APIs and PostgreSQL.</li><li>Implemented consumer tracking, heatmaps, product interaction, and attention analytics.</li><li>Developed role-based dashboards and supported testing, debugging, and API integration.</li></ul>
+            <a class="text-link" href="#attention-title">Explore the internship project <span aria-hidden="true">↗</span></a>
+          </li>
+          <li data-reveal>
+            <div class="timeline-meta"><span class="eyebrow">MAR — APR 2026</span><span class="experience-type">INTERNSHIP</span></div>
+            <h3>Full Stack Developer Intern</h3><p class="company">Bixcel Institute of Technologies</p>
+            <ul class="responsibilities"><li>Worked on full stack web development projects, developing frontend components and integrating backend services.</li><li>Performed database operations and API integration.</li><li>Participated in testing, debugging, and application deployment activities.</li></ul>
+          </li>
+        </ol>
+      </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Technical Skills</h3>
-                    <div class="skill-grid">
-                        <div class="skill-item">
-                            <i class="fab fa-c"></i>
-                            <span>C</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-java"></i>
-                            <span>Java</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-python"></i>
-                            <span>Python</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-html5"></i>
-                            <span>HTML</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-css3-alt"></i>
-                            <span>CSS</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-js"></i>
-                            <span>JavaScript</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-mobile-alt"></i>
-                            <span>Flutter</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-lightbulb"></i> Soft Skills</h3>
-                    <div class="soft-skills">
-                        <div class="soft-skill-item">
-                            <i class="fas fa-brain"></i>
-                            <span>Critical Thinking</span>
-                        </div>
-                        <div class="soft-skill-item">
-                            <i class="fas fa-clock"></i>
-                            <span>Time Management</span>
-                        </div>
-                        <div class="soft-skill-item">
-                            <i class="fas fa-lightbulb"></i>
-                            <span>Problem Solving</span>
-                        </div>
-                        <div class="soft-skill-item">
-                            <i class="fas fa-users"></i>
-                            <span>Team Collaboration</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="about section container" id="about" aria-labelledby="about-title" tabindex="-1">
+      <div class="section-heading" data-reveal><div><p class="eyebrow"><span class="section-number">03 /</span> THE FOUNDATION</p><h2 id="about-title">A little more<br><em>behind the code.</em></h2></div><p class="section-intro">A Computer Science undergraduate with an interest in full stack development and data engineering.</p></div>
+      <div class="foundation-grid">
+        <section class="foundation-panel skills-panel" aria-labelledby="skills-title" data-reveal>
+          <div class="panel-heading"><h3 id="skills-title">Technical toolkit</h3><span aria-hidden="true">&lt;/&gt;</span></div>
+          <dl class="skill-groups">
+            <div><dt>Programming languages</dt><dd>Java <span>·</span> C Programming <span>·</span> Python <span>·</span> SQL</dd></div>
+            <div><dt>Web technologies</dt><dd>HTML <span>·</span> CSS <span>·</span> JavaScript</dd></div>
+            <div><dt>Database management</dt><dd>MySQL <span>·</span> Firebase</dd></div>
+            <div><dt>Tools &amp; platforms</dt><dd>ServiceNow <span>·</span> Git <span>·</span> VS Code</dd></div>
+            <div><dt>APIs &amp; methodology</dt><dd>REST APIs <span>·</span> Agile Methodology</dd></div>
+          </dl>
+          <div class="project-toolkit"><p class="eyebrow">ALSO USED IN MY PROJECTS</p><p>React.js · FastAPI · Spring Boot · PostgreSQL · Thymeleaf</p></div>
+        </section>
+        <section class="foundation-panel certifications-panel" aria-labelledby="certifications-title" data-reveal>
+          <div class="panel-heading"><h3 id="certifications-title">Certified to build</h3><span class="cert-count">06</span></div>
+          <div class="featured-cert"><div class="cert-seal">CAD</div><div><p class="eyebrow">SERVICENOW</p><h4>Certified Application<br>Developer</h4></div><span class="cert-check" aria-hidden="true">✓</span></div>
+          <div class="featured-cert"><div class="cert-seal">CSA</div><div><p class="eyebrow">SERVICENOW</p><h4>Certified System<br>Administrator</h4></div><span class="cert-check" aria-hidden="true">✓</span></div>
+          <ul class="other-certifications"><li><span>Artificial Intelligence and Machine Learning</span><small>Marcello Tech</small></li><li><span>Human Computer Interaction (In English)</span><small>NPTEL</small></li><li><span>Introduction to Industry 4.0 and Industrial Internet of Things</span><small>NPTEL</small></li><li><span>Responsive &amp; Safe AI Systems</span><small>NPTEL</small></li></ul>
+        </section>
+        <section class="foundation-panel education-panel" aria-labelledby="education-title" data-reveal>
+          <div class="panel-heading"><h3 id="education-title">Education</h3><span aria-hidden="true">↗</span></div>
+          <div class="education-entry"><p class="eyebrow">2023 — 2027</p><h4>Bachelor of Computer Science and Engineering</h4><p>M. Kumarasamy College of Engineering, Karur</p><span class="education-result">CGPA <strong>7.1</strong></span></div>
+          <div class="education-entry"><p class="eyebrow">2022 — 2023</p><h4>Higher Secondary Certificate</h4><p>Lord’s Park Matric Higher Secondary School, Karur</p><span class="education-result">HSC <strong>79.83%</strong></span></div>
+        </section>
+        <section class="foundation-panel approach-panel" aria-labelledby="approach-title" data-reveal>
+          <div class="panel-heading"><h3 id="approach-title">How I work</h3><span aria-hidden="true">↔</span></div>
+          <ul class="soft-skills"><li>Project Management</li><li>Time Management</li><li>Problem Solving</li><li>Effective Communication</li><li>Critical Thinking</li></ul>
+          <div class="languages"><h4 class="eyebrow">LANGUAGES</h4><p>Tamil <span>·</span> English</p></div>
+        </section>
+        <section class="foundation-panel interests-panel" aria-labelledby="interests-title" data-reveal><p class="eyebrow">WHAT KEEPS ME CURIOUS</p><h3 id="interests-title">Full Stack<br>Development.<br><em>Data Engineering.</em></h3><div class="interest-symbol" aria-hidden="true">✳</div></section>
+      </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-city"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Civic Welfare Platform</h3>
-                        <p>
-                            A comprehensive platform designed to enhance citizen engagement and improve city government 
-                            transparency. The system uses intelligent automation to sort and prioritize complaints, along 
-                            with location tracking of community issues, ensuring faster service resolution.
-                        </p>
-                        <div class="project-features">
-                            <h4>Key Features:</h4>
-                            <ul>
-                                <li>Automated complaint sorting and ranking</li>
-                                <li>Real-time location tracking of issues</li>
-                                <li>Enhanced citizen engagement</li>
-                                <li>Improved government transparency</li>
-                            </ul>
-                        </div>
-                        <div class="project-tech">
-                            <span class="tech-tag"><i class="fas fa-mobile-alt"></i> Flutter SDK</span>
-                            <span class="tech-tag"><i class="fas fa-database"></i> MongoDB</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-header">
-                        <i class="fas fa-utensils"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Restaurant Manager</h3>
-                        <p>
-                            An object-oriented system designed to streamline restaurant operations including table 
-                            reservations, food orders, and delivery coordination. The platform integrates these processes 
-                            into a unified system, ensuring accuracy, efficiency, and real-time tracking.
-                        </p>
-                        <div class="project-features">
-                            <h4>Key Features:</h4>
-                            <ul>
-                                <li>Table reservation management</li>
-                                <li>Food order processing</li>
-                                <li>Delivery coordination</li>
-                                <li>Real-time tracking and updates</li>
-                                <li>Improved staff communication</li>
-                            </ul>
-                        </div>
-                        <div class="project-tech">
-                            <span class="tech-tag"><i class="fab fa-python"></i> Python</span>
-                            <span class="tech-tag"><i class="fas fa-database"></i> MySQL</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="contact section" id="contact" aria-labelledby="contact-title" tabindex="-1">
+      <div class="container">
+        <p class="eyebrow" data-reveal><span class="section-number">04 /</span> START A CONVERSATION</p>
+        <div class="contact-heading" data-reveal><h2 id="contact-title">Good things start<br>with <em>a hello.</em></h2><a class="contact-arrow" href="mailto:srivelansv2006@gmail.com" aria-label="Email Srivelan M"><span aria-hidden="true">↗</span></a></div>
+        <div class="contact-body"><p>Have a role, a project, or an idea in mind?<br>I’d love to hear about it.</p><div class="direct-contact"><a class="email-link" href="mailto:srivelansv2006@gmail.com">srivelansv2006@gmail.com <span aria-hidden="true">↗</span></a><a class="phone-link" href="tel:+919363632341">+91 93636 32341 <span aria-hidden="true">↗</span></a></div></div>
+        <div class="contact-bottom"><p><span class="status-dot" aria-hidden="true"></span> Based in Karur, Tamil Nadu</p><div class="social-links"><a href="https://github.com/SRIVELAN-CSE" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a><a href="https://www.linkedin.com/in/srivelan-m-0693343a7/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a><a href="assets/Velan_Resume_Updated.pdf" download="Srivelan_M_Resume.pdf">Resume <span aria-hidden="true">↓</span></a></div></div>
+      </div>
     </section>
-
-    <!-- Achievements Section -->
-    <section id="achievements" class="achievements">
-        <div class="container">
-            <h2 class="section-title">Achievements</h2>
-            <div class="achievement-grid">
-                <div class="achievement-card">
-                    <div class="achievement-icon"><i class="fas fa-award"></i></div>
-                    <div class="achievement-content">
-                        <h3>ServiceNow Certified Application Developer (CAD)</h3>
-                        <p>ServiceNow</p>
-                    </div>
-                </div>
-                <div class="achievement-card">
-                    <div class="achievement-icon"><i class="fas fa-shield-halved"></i></div>
-                    <div class="achievement-content">
-                        <h3>ServiceNow Certified System Administrator (CSA)</h3>
-                        <p>ServiceNow</p>
-                    </div>
-                </div>
-                <div class="achievement-card">
-                    <div class="achievement-icon"><i class="fas fa-brain"></i></div>
-                    <div class="achievement-content">
-                        <h3>Artificial Intelligence and Machine Learning</h3>
-                        <p>Marcello Tech</p>
-                    </div>
-                </div>
-                <div class="achievement-card">
-                    <div class="achievement-icon"><i class="fas fa-user-group"></i></div>
-                    <div class="achievement-content">
-                        <h3>Human Computer Interaction (In English)</h3>
-                        <p>NPTEL</p>
-                    </div>
-                </div>
-                <div class="achievement-card">
-                    <div class="achievement-icon"><i class="fas fa-industry"></i></div>
-                    <div class="achievement-content">
-                        <h3>Introduction to Industry 4.0 and Industrial Internet of Things</h3>
-                        <p>NPTEL</p>
-                    </div>
-                </div>
-                <div class="achievement-card">
-                    <div class="achievement-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
-                    <div class="achievement-content">
-                        <h3>Responsive & Safe AI Systems</h3>
-                        <p>NPTEL</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <p class="contact-description">
-                    I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
-                </p>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>srivelansv2006@gmail.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <span>+91 9363632341</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Karur, Tamil Nadu, India</span>
-                    </div>
-                </div>
-                <div class="social-links">
-                    <a href="https://github.com/SRIVELAN-CSE" target="_blank" class="social-link" title="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/srivelan-m-0693343a7/" target="_blank" class="social-link" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 SRIVELAN M. All rights reserved. Built with a dark, spark-lit interface.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+  </main>
+  <footer class="site-footer container"><a class="footer-name" href="https://srivelan-cse.github.io/">SRIVELAN M<span>.</span></a><p>© 2026 · Built with care, from frontend to database.</p><a class="back-top" href="#home">Back to top <span aria-hidden="true">↑</span></a></footer>
 </body>
 </html>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500" fill="none">
+  <defs>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0v34" stroke="#315642" stroke-opacity=".12" /></pattern>
+    <radialGradient id="heat"><stop stop-color="#315642" stop-opacity=".9" /><stop offset=".28" stop-color="#789467" stop-opacity=".7" /><stop offset=".6" stop-color="#C78A62" stop-opacity=".35" /><stop offset="1" stop-color="#EBCDAE" stop-opacity="0" /></radialGradient>
+    <linearGradient id="scale"><stop stop-color="#EBCDAE" /><stop offset=".45" stop-color="#C78A62" /><stop offset="1" stop-color="#315642" /></linearGradient>
+    <g id="shelf"><rect width="58" height="126" rx="3" fill="#EBCDAE" stroke="#315642" /><path d="M29 0v126M0 31h58M0 63h58M0 95h58" stroke="#315642" stroke-opacity=".65" /></g>
+  </defs>
+  <path d="M0 0h720v500H0z" fill="url(#grid)" />
+  <g transform="translate(86 33) rotate(-7 275 210)">
+    <rect x="26" y="13" width="500" height="381" rx="9" fill="#EFE1CE" stroke="#315642" />
+    <path d="M48 36h456v333H48z" stroke="#315642" stroke-dasharray="4 6" />
+    <path d="M238 394h78" stroke="#315642" stroke-width="5" />
+    <path d="M238 394v-30m78 30v-30" stroke="#315642" />
+    <g><use href="#shelf" x="91" y="78" /><use href="#shelf" x="207" y="78" /><use href="#shelf" x="322" y="78" /><use href="#shelf" x="437" y="78" /><rect x="91" y="265" width="174" height="49" rx="3" fill="#EBCDAE" stroke="#315642" /><path d="M135 265v49m43-49v49m44-49v49" stroke="#315642" /><rect x="380" y="273" width="111" height="41" rx="3" fill="#EBCDAE" stroke="#315642" /></g>
+    <ellipse cx="296" cy="185" rx="108" ry="104" fill="url(#heat)" />
+    <ellipse cx="174" cy="243" rx="85" ry="59" fill="url(#heat)" opacity=".65" />
+    <ellipse cx="405" cy="120" rx="62" ry="75" fill="url(#heat)" opacity=".6" />
+    <g stroke="#315642" stroke-opacity=".5"><ellipse cx="296" cy="185" rx="83" ry="79" /><ellipse cx="296" cy="185" rx="61" ry="57" /><ellipse cx="296" cy="185" rx="35" ry="33" /><ellipse cx="174" cy="243" rx="51" ry="34" stroke-opacity=".35" /></g>
+    <path d="M277 389v-50l19-27V165q0-30 27-30h64q24 0 24-24V60" stroke="#9F3F2D" stroke-width="2" stroke-dasharray="5 6" />
+    <g fill="#C98763" stroke="#315642" stroke-width="2"><circle cx="277" cy="348" r="5" /><circle cx="296" cy="185" r="6" /><circle cx="411" cy="92" r="5" /></g>
+  </g>
+  <g stroke="#315642"><path d="M650 57h12m-6-6v12M42 393h12m-6-6v12" /></g>
+</svg>
